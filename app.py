@@ -1,7 +1,7 @@
 """Simulasi Perpipaan Gas — pembungkus Streamlit.
 
 Jalankan:  streamlit run app.py
-Aplikasi simulasinya sendiri ada di simulasi_perpipaan_gas.html (HTML + JS mandiri);
+Aplikasi simulasinya sendiri ada di Simulasi_Perpipaan_Gas.html (HTML + JS mandiri);
 file ini hanya menyajikannya di dalam halaman Streamlit.
 """
 from pathlib import Path
@@ -9,7 +9,7 @@ from pathlib import Path
 import streamlit as st
 import streamlit.components.v1 as components
 
-HTML_FILE = Path(__file__).parent / "simulasi_perpipaan_gas.html"
+HTML_FILE = Path(__file__).parent / "Simulasi_Perpipaan_Gas.html"
 
 st.set_page_config(page_title="Simulasi Perpipaan Gas", page_icon="🛢️", layout="wide",
                    initial_sidebar_state="collapsed")
